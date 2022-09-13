@@ -9,7 +9,20 @@ public class Lab03vst
 	public static void main(String[] args)
 	{
       System.out.println("Lab03, 80 Point Version\n");
-      
+
+	  int sec = 10000;
+	  int hours = sec/ 3600;
+	  int minutes = (sec%3600)/60  ;
+	  int seconds = (sec%3600)%60 ;
+
+	  System.out.println("hours: "+hours);
+	  System.out.println("minutes: "+minutes);
+		System.out.println("seconds: "+seconds);
+
+
+
+
+
 	}
 }
 
